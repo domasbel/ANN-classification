@@ -10,5 +10,5 @@ scikit-learn
 nltk
 svgling
 gensim
-tensorflow==2.15.0
+tensorflow
 tensorboard
