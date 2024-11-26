@@ -1,23 +1,7 @@
-# ANN-Regression
+# Repository for NN mini projects 
 
-Customer Income Prediction Model
+1. Simple NN - in this project I have developed a regression model to predict customer income using 12 features, showcasing skills in data preprocessing, neural network design, and hyperparameter tuning. Categorical variables are encoded using label and one-hot encoding, while continuous variables are normalized for better model performance. A neural network is implemented in both TensorFlow and Keras, with hyperparameters optimized through Grid Search and K-Fold Cross-Validation to minimize Mean Squared Error (MSE). Key tools include TensorFlow, Keras, Scikit-learn, and GridSearchCV, demonstrating expertise in building robust and efficient predictive models.
 
-This project implements a regression model designed to predict the estimated income of a customer based on 12 different features. The primary goal of this model is to demonstrate the ability to preprocess data, design a neural network, and apply hyperparameter tuning for optimal performance.
+2. RNN - next project involves training an RNN-based neural network for sentiment classification using the IMDB reviews dataset. The model's performance was enhanced through manual hyperparameter tuning, including adjustments to L2 regularization, dropout layers, epoch number and batch size. The solution was further deployed with a user-friendly interface using Streamlit, enabling real-time sentiment classification with the trained model. This project highlights expertise in RNN design, hyperparameter optimization, and deployment of machine learning solutions.
 
-1. Key Features and Techniques Used:
-- Data Preprocessing - Label Encoding and One-Hot Encoding for handling categorical variables, ensuring that all inputs are numerical and suitable for model training.
-- Data Scaling using a scaler to normalize continuous variables, improving the convergence and performance of the model.
-  
-2. Modeling:
-- A simple neural network (NN) is created using TensorFlow and Keras, where separate implementations of the model are provided in both libraries to showcase proficiency in each.
-- The model predicts the target variable, which is the estimated income of a customer.
-  
-3. Hyperparameter Tuning:
-- A Grid Search approach is applied to explore various hyperparameter combinations (such as the number of layers, number of neurons, and epochs) and identify the best model architecture based on Mean Squared Error (MSE), the chosen metric for regression tasks.
-- K-Fold Cross Validation is used during the grid search to ensure the model's robustness and prevent overfitting.
-  
-4. Tools and Libraries:
-- TensorFlow & Keras: For creating and training the neural network.
-- Scikit-learn: For data preprocessing (encoding, scaling) and model evaluation.
-- GridSearchCV: For optimizing the hyperparameters of the model.
-
+3. LSTM - 
